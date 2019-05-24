@@ -202,3 +202,28 @@
 [2019-05-24 17:32:16.706] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
 [2019-05-24 17:32:16.712] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
 [2019-05-24 17:39:10.987] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"connector","pid":10828}
+[2019-05-24 18:14:06.907] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2019-05-24 18:14:06.942] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2019-05-24 18:14:07.549] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2019-05-24 18:14:07.555] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2019-05-24 18:19:31.034] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":6528}
+[2019-05-24 18:19:41.676] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2019-05-24 18:19:41.712] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2019-05-24 18:19:42.309] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2019-05-24 18:19:42.311] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2019-05-24 18:20:40.198] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":2300}
+[2019-05-24 18:20:58.963] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2019-05-24 18:20:59.001] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2019-05-24 18:20:59.657] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2019-05-24 18:20:59.659] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2019-05-24 18:21:51.922] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":3520}
+[2019-05-24 18:21:51.935] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect connector-server-1 connector {"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"connector-server-1","host":"127.0.0.1","port":3150,"clientHost":"127.0.0.1","clientPort":3010,"frontend":"true","serverType":"connector","pid":2480}
+[2019-05-24 18:22:02.400] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2019-05-24 18:22:02.437] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2019-05-24 18:22:03.058] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2019-05-24 18:22:03.060] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2019-05-24 18:22:42.283] [INFO] pomelo-admin - [32m[MqttServer] [39m[MqttServer] listen on 3005
+[2019-05-24 18:22:42.324] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "master", "127.0.0.1", 3005
+[2019-05-24 18:22:42.947] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "gate", "127.0.0.1", 3005
+[2019-05-24 18:22:42.953] [INFO] pomelo-admin - [32m[ConsoleService] [39mtry to connect master: "connector", "127.0.0.1", 3005
+[2019-05-24 18:23:56.891] [DEBUG] pomelo-admin - [36m[MasterSocket] [39mdisconnect gate-server-1 gate {"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7120}

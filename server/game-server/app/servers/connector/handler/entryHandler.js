@@ -32,13 +32,14 @@ Handler.prototype.entry = function(msg, session, next) {
 	}
 	
 	session.bind(uid);
-	session.set('rid', rid);
-	session.push('rid', function(err) {
+	session.set('uid', uid);
+	session.push('uid', function(err) {
 		if(err) {
 			console.error('set rid for session service failed! error is : %j', err.stack);
 		}
 	});
-	session.on('closed', onUserLeave.bind(null, self.app));
+
+//	session.on('closed', onUserLeave.bind(null, self.app));
 
 	// //put user into channel
 	// self.app.rpc.chat.chatRemote.add(session, uid, self.app.get('serverId'), rid, true, function(users){
