@@ -1,0 +1,142 @@
+[2019-05-22 10:26:21.018] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:26:21.479] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:26:21.483] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:26:21.483] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 408 ms
+[2019-05-22 10:27:03.061] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:27:03.510] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:27:03.514] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:27:03.514] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 397 ms
+[2019-05-22 10:32:43.821] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:32:44.278] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:32:44.281] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:32:44.281] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 404 ms
+[2019-05-22 10:32:45.254] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate"}}
+[2019-05-22 10:36:12.265] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:36:12.736] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:36:12.740] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:36:12.740] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 419 ms
+[2019-05-22 10:39:24.289] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:39:24.753] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:39:24.757] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:39:24.757] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 413 ms
+[2019-05-22 10:39:27.396] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-22 10:40:17.040] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:40:17.506] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:40:17.510] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:40:17.510] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 416 ms
+[2019-05-22 10:40:51.283] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-22 10:41:12.509] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:41:12.966] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:41:12.969] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:41:12.969] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 406 ms
+[2019-05-22 10:56:16.883] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:56:17.363] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:56:17.367] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:56:17.367] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 425 ms
+[2019-05-22 10:56:31.306] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-22 10:59:52.089] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 10:59:52.554] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 10:59:52.559] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 10:59:52.559] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 413 ms
+[2019-05-22 10:59:52.561] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7700}}
+[2019-05-22 11:00:12.946] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-22 11:00:51.233] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 11:00:51.718] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 11:00:51.722] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 11:00:51.723] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 436 ms
+[2019-05-22 11:06:45.651] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 11:07:23.563] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 11:08:29.001] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 11:08:29.480] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 11:08:29.484] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 11:08:29.484] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 428 ms
+[2019-05-22 11:40:16.270] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 11:40:16.846] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 11:40:16.850] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 11:40:16.850] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 489 ms
+[2019-05-22 11:40:42.460] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 11:40:42.911] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 11:40:42.915] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 11:40:42.915] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 402 ms
+[2019-05-22 11:40:42.917] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7828}}
+[2019-05-22 11:47:57.152] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 11:47:57.624] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 11:47:57.627] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 11:47:57.628] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 422 ms
+[2019-05-22 11:48:04.756] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-22 14:03:26.273] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 14:03:26.769] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 14:03:26.773] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 14:03:26.773] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 440 ms
+[2019-05-22 14:05:02.870] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 14:05:03.332] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 14:05:03.336] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 14:05:03.336] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 412 ms
+[2019-05-22 16:24:34.334] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 16:24:34.915] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 16:24:35.223] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 16:24:35.224] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 885 ms
+[2019-05-22 16:25:07.025] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-22 17:11:40.916] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:11:41.625] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:11:41.628] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:11:41.629] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 558 ms
+[2019-05-22 17:13:40.441] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:13:40.828] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:13:40.984] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:13:40.984] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 539 ms
+[2019-05-22 17:13:40.985] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":11128}}
+[2019-05-22 17:13:46.219] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-22 17:15:16.805] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:15:17.244] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:15:17.247] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:15:17.248] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 390 ms
+[2019-05-22 17:21:24.527] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:21:24.969] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:21:24.973] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:21:24.973] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 392 ms
+[2019-05-22 17:34:22.914] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:34:23.368] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:34:23.371] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:34:23.372] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 404 ms
+[2019-05-22 17:39:56.966] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:39:57.415] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:39:57.419] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:39:57.419] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 397 ms
+[2019-05-22 17:41:29.518] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:41:29.966] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:41:29.970] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:41:29.970] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 399 ms
+[2019-05-22 17:45:58.738] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:45:59.188] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:45:59.191] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:45:59.191] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 399 ms
+[2019-05-22 17:48:14.417] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:48:14.882] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:48:14.886] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:48:14.886] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 415 ms
+[2019-05-22 17:50:19.225] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-22 17:50:19.616] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-22 17:50:19.763] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-22 17:50:19.764] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 535 ms
+[2019-05-22 17:50:19.765] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":10504}}
+[2019-05-23 09:41:48.169] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-23 09:41:48.680] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-23 09:41:49.026] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-23 09:41:49.026] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 852 ms
+[2019-05-23 09:41:49.027] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":7324}}
+[2019-05-23 09:53:07.771] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-23 09:53:08.187] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-23 09:53:08.331] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-23 09:53:08.331] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 554 ms
+[2019-05-23 09:53:08.333] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":5620}}
+[2019-05-23 09:53:32.618] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-23 09:54:00.305] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-23 09:54:00.954] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-23 09:54:00.959] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-23 09:54:00.959] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 531 ms
+[2019-05-23 09:59:29.862] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-23 09:59:30.344] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-23 09:59:30.348] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-23 09:59:30.348] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 432 ms
+[2019-05-23 09:59:36.626] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}

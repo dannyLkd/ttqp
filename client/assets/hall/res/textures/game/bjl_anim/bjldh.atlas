@@ -1,0 +1,160 @@
+
+bjldh.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+cg
+  rotate: false
+  xy: 433, 529
+  size: 96, 55
+  orig: 96, 55
+  offset: 0, 0
+  index: -1
+chouma2
+  rotate: false
+  xy: 2, 790
+  size: 266, 202
+  orig: 266, 202
+  offset: 0, 0
+  index: -1
+chouma3
+  rotate: false
+  xy: 2, 586
+  size: 266, 202
+  orig: 266, 202
+  offset: 0, 0
+  index: -1
+chouma4
+  rotate: false
+  xy: 270, 790
+  size: 266, 202
+  orig: 266, 202
+  offset: 0, 0
+  index: -1
+chouma5
+  rotate: false
+  xy: 2, 382
+  size: 266, 202
+  orig: 266, 202
+  offset: 0, 0
+  index: -1
+chouma6
+  rotate: false
+  xy: 270, 586
+  size: 266, 202
+  orig: 266, 202
+  offset: 0, 0
+  index: -1
+chouma7
+  rotate: false
+  xy: 538, 790
+  size: 266, 202
+  orig: 266, 202
+  offset: 0, 0
+  index: -1
+chouma8
+  rotate: false
+  xy: 2, 178
+  size: 266, 202
+  orig: 266, 202
+  offset: 0, 0
+  index: -1
+cm1
+  rotate: false
+  xy: 270, 451
+  size: 161, 133
+  orig: 161, 133
+  offset: 0, 0
+  index: -1
+fk
+  rotate: false
+  xy: 358, 394
+  size: 44, 55
+  orig: 44, 55
+  offset: 0, 0
+  index: -1
+ht
+  rotate: false
+  xy: 433, 486
+  size: 51, 41
+  orig: 51, 41
+  offset: 0, 0
+  index: -1
+poker1
+  rotate: false
+  xy: 270, 205
+  size: 60, 42
+  orig: 60, 42
+  offset: 0, 0
+  index: -1
+poker2
+  rotate: false
+  xy: 740, 723
+  size: 58, 65
+  orig: 58, 65
+  offset: 0, 0
+  index: -1
+wz
+  rotate: false
+  xy: 538, 702
+  size: 200, 86
+  orig: 200, 86
+  offset: 0, 0
+  index: -1
+wz2
+  rotate: false
+  xy: 806, 906
+  size: 200, 86
+  orig: 200, 86
+  offset: 0, 0
+  index: -1
+wz3
+  rotate: false
+  xy: 2, 90
+  size: 200, 86
+  orig: 200, 86
+  offset: 0, 0
+  index: -1
+wz4
+  rotate: true
+  xy: 270, 249
+  size: 200, 86
+  orig: 200, 86
+  offset: 0, 0
+  index: -1
+wz5
+  rotate: false
+  xy: 538, 614
+  size: 200, 86
+  orig: 200, 86
+  offset: 0, 0
+  index: -1
+wz6
+  rotate: false
+  xy: 806, 818
+  size: 200, 86
+  orig: 200, 86
+  offset: 0, 0
+  index: -1
+wz7
+  rotate: false
+  xy: 2, 2
+  size: 200, 86
+  orig: 200, 86
+  offset: 0, 0
+  index: -1
+xxx
+  rotate: false
+  xy: 740, 677
+  size: 42, 44
+  orig: 42, 44
+  offset: 0, 0
+  index: -1
+xxx2
+  rotate: false
+  xy: 204, 122
+  size: 56, 54
+  orig: 56, 54
+  offset: 0, 0
+  index: -1
