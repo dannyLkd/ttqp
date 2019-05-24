@@ -140,3 +140,120 @@
 [2019-05-23 09:59:30.348] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
 [2019-05-23 09:59:30.348] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 432 ms
 [2019-05-23 09:59:36.626] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-24 16:05:59.211] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-24 16:05:59.811] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-24 16:05:59.815] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-24 16:05:59.815] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 493 ms
+[2019-05-24 16:45:21.683] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-24 16:49:34.821] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-24 16:49:35.307] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-24 16:49:35.311] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-24 16:49:35.312] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 419 ms
+[2019-05-24 16:53:02.335] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-05-24 16:55:55.522] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-24 16:56:52.181] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-24 16:56:52.650] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-24 16:56:52.654] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-24 16:56:52.654] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 416 ms
+[2019-05-24 16:56:52.655] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":8588}}
+[2019-05-24 16:57:00.353] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-05-24 16:57:00.364] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":0,"route":"connector.entryHandler.enter","body":{"username":"轩辕有钱"},"compressGzip":0}
+[2019-05-24 16:57:00.367] [WARN] pomelo - [33m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find the method enter in handler: entryHandler
+[2019-05-24 16:57:00.367] [ERROR] pomelo - [31m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "connector.entryHandler.enter"
+[2019-05-24 16:57:00.369] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for connector.entryHandler.enter
+    at Service.handle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js:35:30)
+    at handle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:375:25)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:388:3)
+    at dispatch (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2019-05-24 16:57:00.370] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-05-24 17:05:13.115] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39mconnector-server-1 receive removeServer signal: {"action":"removeServer","id":"gate-server-1"}
+[2019-05-24 17:07:01.676] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-24 17:07:02.157] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-24 17:07:02.162] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-24 17:07:02.162] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 428 ms
+[2019-05-24 17:07:10.915] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-05-24 17:07:10.924] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":2,"type":0,"compressRoute":0,"route":"connector.entryHandler.enter","body":{"username":"东阳赌侠"},"compressGzip":0}
+[2019-05-24 17:07:10.929] [WARN] pomelo - [33m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find the method enter in handler: entryHandler
+[2019-05-24 17:07:10.929] [ERROR] pomelo - [31m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "connector.entryHandler.enter"
+[2019-05-24 17:07:10.931] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for connector.entryHandler.enter
+    at Service.handle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js:35:30)
+    at handle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:375:25)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:388:3)
+    at dispatch (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2019-05-24 17:07:10.931] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 2, route: connector.entryHandler.enter, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-05-24 17:22:12.203] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-24 17:22:12.668] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-24 17:22:12.672] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-24 17:22:12.673] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 414 ms
+[2019-05-24 17:22:12.674] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":10480}}
+[2019-05-24 17:22:19.756] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-05-24 17:22:19.766] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"gate.gateHandler.createRole","body":{},"compressGzip":0}
+[2019-05-24 17:22:19.769] [ERROR] pomelo - [31m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js] [39mfail to forward message:TypeError: Cannot read property 'forwardMessage' of undefined
+    at doForward (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:334:49)
+    at dispatch (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:103:7)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at Server.pro.globalHandle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:112:3)
+    at Component.globalHandle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\server.js:74:14)
+    at handleMessage (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js:381:15)
+    at Socket.<anonymous> (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js:284:5)
+    at emitOne (events.js:96:13)
+[2019-05-24 17:22:19.769] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: gate.gateHandler.createRole, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-05-24 17:24:09.910] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-24 17:24:10.401] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-24 17:24:10.405] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-24 17:24:10.405] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 435 ms
+[2019-05-24 17:24:18.500] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-05-24 17:24:18.510] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.enter","body":{"username":"东东"},"compressGzip":0}
+[2019-05-24 17:24:18.515] [WARN] pomelo - [33m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find the method enter in handler: entryHandler
+[2019-05-24 17:24:18.515] [ERROR] pomelo - [31m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "connector.entryHandler.enter"
+[2019-05-24 17:24:18.517] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for connector.entryHandler.enter
+    at Service.handle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js:35:30)
+    at handle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:375:25)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:388:3)
+    at dispatch (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2019-05-24 17:24:18.518] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.enter, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-05-24 17:26:56.193] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-24 17:26:56.651] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-24 17:26:56.656] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-24 17:26:56.656] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 410 ms
+[2019-05-24 17:26:56.658] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\modules\monitorwatcher.js] [39m[connector-server-1] receive addServer signal: {"action":"addServer","server":{"main":"F:\\creator\\aa-github\\ttqp\\server\\game-server\\app.js","env":"development","id":"gate-server-1","host":"127.0.0.1","clientPort":3014,"frontend":"true","serverType":"gate","pid":8940}}
+[2019-05-24 17:27:05.004] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] getSession session is created with session id: 1
+[2019-05-24 17:27:05.016] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] handleMessage session id: 1, msg: {"id":1,"type":0,"compressRoute":0,"route":"connector.entryHandler.enter","body":{"username":"东东"},"compressGzip":0}
+[2019-05-24 17:27:05.021] [WARN] pomelo - [33m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39mcould not find the method enter in handler: entryHandler
+[2019-05-24 17:27:05.021] [ERROR] pomelo - [31m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js] [39m[handleManager]: fail to find handler for "connector.entryHandler.enter"
+[2019-05-24 17:27:05.022] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js] [39mno default error handler to resolve unknown exception. Error: fail to find handler for connector.entryHandler.enter
+    at Service.handle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\handlerService.js:35:30)
+    at handle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:375:25)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+    at doHandle (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:388:3)
+    at dispatch (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:107:7)
+    at next (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:50:7)
+    at Service.beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\common\service\filterService.js:65:3)
+    at beforeFilter (F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\server\server.js:242:8)
+[2019-05-24 17:27:05.023] [DEBUG] pomelo - [36m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\components\connector.js] [39m[connector-server-1] send message reqId: 1, route: connector.entryHandler.enter, msg: {"code":500}, receivers: [1], opts: {"type":"response","userOptions":{},"isResponse":true}
+[2019-05-24 17:32:16.309] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39mapplication inited: "connector-server-1"
+[2019-05-24 17:32:16.787] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" enter after start...
+[2019-05-24 17:32:16.791] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" finish start
+[2019-05-24 17:32:16.791] [INFO] pomelo - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\application.js] [39m"connector-server-1" startup in 427 ms

@@ -1,4 +1,4 @@
-var CreateRoleFrame = require("HallLoginFrame");
+var CreateRoleFrame = require("CreateRoleFrame");
 
 cc.Class({
     extends: cc.Component,
@@ -60,15 +60,13 @@ cc.Class({
     },
 
     onBtnConfirmClicked:function(){
-        var name = this.inputName.string;
-        if(name == ""){
+        var username = this.inputName.string;
+        if(username == ""){
             console.log("invalid name.");
             return;
         }
-        console.log(name);
-        CreateRoleFrame.gateCreateRole(AppDF.HOST, AppDF.PORT, function (data) {
-            cc.director.loadScene('HallScene');
-        });  
+        console.log(username);
+        CreateRoleFrame.createRole(username);  
     }
     // called every frame, uncomment this function to activate update callback
     // update: function (dt) {

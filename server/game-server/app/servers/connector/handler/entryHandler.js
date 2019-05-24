@@ -1,3 +1,4 @@
+var Code = require('../../../../../shared/code');
 module.exports = function(app) {
   return new Handler(app);
 };
@@ -15,6 +16,37 @@ var Handler = function(app) {
  * @return {Void}
  */
 Handler.prototype.entry = function(msg, session, next) {
+
+	var self = this;
+	var uid = msg.username + '*'
+	console.log("uid-------------",uid);
+	var sessionService = self.app.get('sessionService');
+
+	//duplicate log in
+	if( !! sessionService.getByUid(uid)) {
+		next(null, {
+			code: Code.FAIL,
+			error: true
+		});
+		return;
+	}
+	
+	session.bind(uid);
+	session.set('rid', rid);
+	session.push('rid', function(err) {
+		if(err) {
+			console.error('set rid for session service failed! error is : %j', err.stack);
+		}
+	});
+	session.on('closed', onUserLeave.bind(null, self.app));
+
+	// //put user into channel
+	// self.app.rpc.chat.chatRemote.add(session, uid, self.app.get('serverId'), rid, true, function(users){
+	// 	next(null, {
+	// 		users:users
+	// 	});
+	// });
+
   next(null, {code: 200, msg: 'game server is ok.'});
 };
 

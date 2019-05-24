@@ -20,7 +20,7 @@ Handler.prototype.queryEntry = function(msg, session, next) {
 		next(null, {code: Code.FAIL});
 		return;
 	}
-
+	// get all connectors
 	var connectors = this.app.getServersByType('connector');
 	if(!connectors || connectors.length === 0) {
 		next(null, {
@@ -28,6 +28,7 @@ Handler.prototype.queryEntry = function(msg, session, next) {
 		});
 		return;
 	}	
+	// select connector
 	var res = dispatcher.dispatch(uid, connectors);
     next(null, {
         code: Code.OK,
