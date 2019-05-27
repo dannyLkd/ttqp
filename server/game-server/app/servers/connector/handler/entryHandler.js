@@ -18,26 +18,7 @@ var Handler = function(app) {
 Handler.prototype.entry = function(msg, session, next) {
 
 	var self = this;
-	var uid = msg.username + '*'
-	console.log("uid-------------",uid);
-	var sessionService = self.app.get('sessionService');
 
-	//duplicate log in
-	if( !! sessionService.getByUid(uid)) {
-		next(null, {
-			code: Code.FAIL,
-			error: true
-		});
-		return;
-	}
-	
-	session.bind(uid);
-	session.set('uid', uid);
-	session.push('uid', function(err) {
-		if(err) {
-			console.error('set rid for session service failed! error is : %j', err.stack);
-		}
-	});
 
 //	session.on('closed', onUserLeave.bind(null, self.app));
 
@@ -47,6 +28,36 @@ Handler.prototype.entry = function(msg, session, next) {
 	// 		users:users
 	// 	});
 	// });
+
+	var account = "guest_" + msg.username;
+	var sign = crypto.md5(account + req.ip + config.ACCOUNT_PRI_KEY);
+	var ret = {
+		code: code.OK,
+		account:account,
+		sign:sign
+	}
+
+	// var sessionService = self.app.get('sessionService');
+
+	// //duplicate log in
+	// if( !! sessionService.getByUid(uid)) {
+	// 	next(null, {
+	// 		code: Code.FAIL,
+	// 		error: true
+	// 	});
+	// 	return;
+	// }
+	
+	// session.bind(uid);
+	// session.set('uid', uid);
+	// session.push('uid', function(err) {
+	// 	if(err) {
+	// 		console.error('set rid for session service failed! error is : %j', err.stack);
+	// 	}
+	// });
+
+	// send(res,ret);
+
 
   next(null, {code: 200, msg: 'game server is ok.'});
 };

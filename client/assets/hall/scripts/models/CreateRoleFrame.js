@@ -22,8 +22,8 @@ CreateRoleFrame.queryEntry = function(uid,callback){
             }
             GlobalUserItem.host = data.host;
             GlobalUserItem.port = data.port;
-            console.log("data.host----------------",data.host);
-            console.log("data.port----------------",data.port)            
+            // console.log("data.host----------------",data.host);
+            // console.log("data.port----------------",data.port)            
 			callback(data.host, data.port);
 		});
 	});    
@@ -45,7 +45,7 @@ CreateRoleFrame.createRole = function(username) {
                     return;
                 }
                 console.log("1111111111",data.msg);
-                cc.director.loadScene('LoadingScene');
+                cc.director.loadScene('HallScene');
             }); 
         });
     });

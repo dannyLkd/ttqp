@@ -1,25 +1,25 @@
 var pomelo = require('pomelo');
 
-//var sync = require('pomelo-sync-plugin');
+var sync = require('pomelo-sync');
 /**
  * Init app for client.
  */
 var app = pomelo.createApp();
 app.set('name', 'server');
 
-// // configure for global
-// app.configure('production|development', function() {
-// 	app.loadConfig('mysql', app.getBase() + '/../shared/config/mysql.json');
-// 	app.filter(pomelo.filters.timeout());  
-// });
+// configure for global
+app.configure('production|development', function() {
+	app.loadConfig('mysql', app.getBase() + '/../shared/config/mysql.json');
+	//app.filter(pomelo.filters.timeout());  
+});
 
-// // Configure database
-// app.configure('production|development', 'area|auth|connector|master', function() {
-// 	var dbclient = require('./app/dao/mysql/mysql').init(app);
-// 	app.set('dbclient', dbclient);
-// 	// app.load(pomelo.sync, {path:__dirname + '/app/dao/mapping', dbclient: dbclient});
-//   	app.use(sync, {sync: {path:__dirname + '/app/dao/mapping', dbclient: dbclient}});
-// });
+// Configure database
+app.configure('production|development', 'area|auth|connector|master', function() {
+	var dbclient = require('./app/dao/mysql/mysql').init(app);
+	app.set('dbclient', dbclient);
+	app.load(pomelo.sync, {path:__dirname + '/app/dao/mapping', dbclient: dbclient});
+  app.use(sync, {sync: {path:__dirname + '/app/dao/mapping', dbclient: dbclient}});
+});
 
 // app configuration
 app.configure('production|development', 'gate', function(){

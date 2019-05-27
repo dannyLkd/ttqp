@@ -1,5 +1,5 @@
 var _poolModule = require('generic-pool');
-var mysql = require('mysql');
+var mysql = require('./mysql.js');
 /*
  * Create mysql connection pool.
  */
