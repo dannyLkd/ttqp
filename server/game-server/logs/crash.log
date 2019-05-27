@@ -38,3 +38,7 @@
 [2019-05-24 18:21:51.924] [INFO] crash-log - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\master\master.js] [39m[gate],[gate-server-1],[1558693311924],[disconnect]
 [2019-05-24 18:21:51.937] [INFO] crash-log - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\master\master.js] [39m[connector],[connector-server-1],[1558693311937],[disconnect]
 [2019-05-24 18:23:56.893] [INFO] crash-log - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\master\master.js] [39m[gate],[gate-server-1],[1558693436892],[disconnect]
+[2019-05-27 15:51:48.231] [INFO] crash-log - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\master\master.js] [39m[gate],[gate-server-1],[1558943508231],[disconnect]
+[2019-05-27 17:36:00.942] [INFO] crash-log - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\master\master.js] [39m[gate],[gate-server-1],[1558949760942],[disconnect]
+[2019-05-27 17:39:12.443] [INFO] crash-log - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\master\master.js] [39m[gate],[gate-server-1],[1558949952443],[disconnect]
+[2019-05-27 17:40:14.678] [INFO] crash-log - [32m[F:\creator\aa-github\ttqp\server\game-server\node_modules\pomelo\lib\master\master.js] [39m[gate],[gate-server-1],[1558950014678],[disconnect]

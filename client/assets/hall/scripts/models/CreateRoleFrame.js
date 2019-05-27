@@ -38,13 +38,13 @@ CreateRoleFrame.createRole = function(username) {
             log: true
         };
         pomelo.init(site, function() {
-            var route = "connector.entryHandler.entry";
-            pomelo.request(route, {username: username,}, function(data) {
+            var route = "connector.entryHandler.createUser";
+            pomelo.request(route, {username: username,ip: GlobalUserItem.host}, function(data) {
                 if(data.error) {
                     //showError(DUPLICATE_ERROR);
                     return;
                 }
-                console.log("1111111111",data.msg);
+                //console.log("1111111111",data.msg);
                 cc.director.loadScene('HallScene');
             }); 
         });

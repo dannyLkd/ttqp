@@ -1,7 +1,9 @@
 var logger = require('pomelo-logger').getLogger(__filename);
 var pomelo = require('pomelo');
-var Account = require('../domain/account');
+//var Account = require('../domain/account');
 var utils = require('../util/utils');
+var crypto = require('../util/crypto');
+
 
 var accountDao = module.exports;
 
@@ -45,14 +47,12 @@ function isUserExist(account,callback){
 
 };
 /**
- * Create Bag
+ * Create createUser
  *
  * @param {Number} playerId Player Id
- * @param {function} cb Call back function
+ * @param {function} callback Call back function
  */
 accountDao.createUser = function(account, name,coins,gems,sex,headimg,callback) {
-	var coins = 1000;
-	var gems = 21;	
     if(account == null || name == null || coins==null || gems==null){
         callback(false);
         return;
@@ -73,10 +73,12 @@ accountDao.createUser = function(account, name,coins,gems,sex,headimg,callback) 
 			pomelo.app.get('dbclient').insert(sql, args, function(err, res) {
 				if (err) {
 					logger.error('create bag for bagDao failed! ' + err.stack);
-					utils.invokeCallback(callback, err, null);
+					//utils.invokeCallback(callback, err, null);
+					callback(true)
 				} else {
-					var bag = new Bag({id: res.insertId});
-					utils.invokeCallback(callback, null, bag);
+					//var bag = new Bag({id: res.insertId});
+					//utils.invokeCallback(callback, null, bag);
+					callback(false)
 				}
 			});
 		}

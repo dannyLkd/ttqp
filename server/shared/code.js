@@ -1,7 +1,7 @@
 module.exports = {
 	OK: 200, 
 	FAIL: 500, 
-
+	ACCOUNT_PRI_KEY:"^&*#$%()@",
 	ENTRY: {
 		FA_TOKEN_INVALID: 	1001, 
 		FA_TOKEN_EXPIRE: 	1002, 

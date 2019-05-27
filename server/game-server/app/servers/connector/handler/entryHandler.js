@@ -1,4 +1,6 @@
 var Code = require('../../../../../shared/code');
+var accountDao = require('../../../dao/accountDao');
+var crypto = require('../../../util/crypto');
 module.exports = function(app) {
   return new Handler(app);
 };
@@ -30,9 +32,9 @@ Handler.prototype.entry = function(msg, session, next) {
 	// });
 
 	var account = "guest_" + msg.username;
-	var sign = crypto.md5(account + req.ip + config.ACCOUNT_PRI_KEY);
+	var sign = crypto.md5(account + req.ip + Code.ACCOUNT_PRI_KEY);
 	var ret = {
-		code: code.OK,
+		code: Code.OK,
 		account:account,
 		sign:sign
 	}
@@ -61,6 +63,16 @@ Handler.prototype.entry = function(msg, session, next) {
 
   next(null, {code: 200, msg: 'game server is ok.'});
 };
+
+
+Handler.prototype.createUser= function(msg, session, next) {
+	var coins = 1000;
+	var gems = 21;		
+	var self = this;
+	var account = "guest_" + msg.username;
+	var sign = crypto.md5(account + msg.ip + Code.ACCOUNT_PRI_KEY);
+	accountDao.createUser(account,msg.username,coins,gems,1,"",next);
+}
 
 /**
  * Publish route for mqtt connector.
