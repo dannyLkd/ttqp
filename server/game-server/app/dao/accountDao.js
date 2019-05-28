@@ -36,10 +36,13 @@ function isUserExist(account,callback){
 			if (res && res.length === 1) {
 				var result = res[0];
 				//var bag = new Bag({ id: result.id, itemCount: result.itemCount, items: JSON.parse(result.items) });
-				callback(true);
+				console.log("已经有数据了---------------------");
+				//callback(true);
+				
 			} else {
 				// logger.error('bag not exist');
 				// utils.invokeCallback(callback, new Error(' bag not exist '), null);
+				console.log("没有数据---------------------");
 				callback(false);
 			}
 		}
