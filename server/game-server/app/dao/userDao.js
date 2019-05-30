@@ -3,10 +3,9 @@ var pomelo = require('pomelo');
 //var Account = require('../domain/account');
 var utils = require('../util/utils');
 var crypto = require('../util/crypto');
+var User = require('../domain/user');
 
-
-var accountDao = module.exports;
-
+var userDao = module.exports;
 
 function generateUserId() {
     var Id = "";
@@ -19,29 +18,31 @@ function generateUserId() {
     }
     return Id;
 }
-function isUserExist(account,callback){
+
+function isUserExist(userid,callback){
     callback = callback == null? nop:callback;
-    if(account == null){
+    if(userid == null){
         callback(false);
         return;
     }
-	var sql = 'select userid from t_users where account = ?';
-	var args = [account];
-	console.log("args----------------------------",args);
-	pomelo.app.get('dbclient').query(sql, args, function(err, res) {
+	var sql = 'select * from t_users where userid = "'+ userid +'"';
+	//var args = [account];
+	//console.log("args----------------------------",args);
+	pomelo.app.get('dbclient').query(sql,function(err, res, fields) {
 		if (err) {
-			logger.error('get bag by playerId for bagDao failed! ' + err.stack);
-			utils.invokeCallback(callback, err, null);
+			// logger.error('get bag by playerId for bagDao failed! ' + err.stack);
+			// utils.invokeCallback(callback, err, null);
+			callback(false);
 		} else {
 			if (res && res.length === 1) {
 				var result = res[0];
 				//var bag = new Bag({ id: result.id, itemCount: result.itemCount, items: JSON.parse(result.items) });
 				console.log("已经有数据了---------------------");
-				//callback(true);
-				
+				callback(true);
+				//utils.invokeCallback(callback, new Error(' bag not exist '), false);
 			} else {
 				// logger.error('bag not exist');
-				// utils.invokeCallback(callback, new Error(' bag not exist '), null);
+				//utils.invokeCallback(callback, new Error(' bag not exist '), false);
 				console.log("没有数据---------------------");
 				callback(false);
 			}
@@ -55,7 +56,7 @@ function isUserExist(account,callback){
  * @param {Number} playerId Player Id
  * @param {function} callback Call back function
  */
-accountDao.createUser = function(account, name,coins,gems,sex,headimg,callback) {
+userDao.createUser = function(account, name,coins,gems,sex,headimg,callback) {
     if(account == null || name == null || coins==null || gems==null){
         callback(false);
         return;
@@ -66,22 +67,29 @@ accountDao.createUser = function(account, name,coins,gems,sex,headimg,callback) 
     else{
         headimg = 'null';
     }
-    name = crypto.toBase64(name);
-    var userId = generateUserId();	
-	//var sql = 'insert into Bag (playerId, items, itemCount) values (?, ?, ?)';
-	var sql = 'insert into t_users(userid,account,name,coins,gems,sex,headimg) VALUES(?, ?,?,?,?,?,?)';
-	var args = [userId, account, name,coins,gems,sex,headimg];
-	isUserExist(account,function(ret){
+	//name = crypto.toBase64(name);	
+	var userId = generateUserId();
+	var guestAccount = account + userId;
+    var sql = 'INSERT INTO t_users(userId,account,name,coins,gems,sex,headimg) VALUES("'+ userId+'","'+ guestAccount+'","'+ name+'",'+ coins +','+ gems +','+ sex +','+ null +')';
+    //sql = sql.format(userId,account,name,coins,gems,sex,headimg);
+    console.log(sql);
+	isUserExist(userId,function(ret){
 		if(!ret){
-			pomelo.app.get('dbclient').insert(sql, args, function(err, res) {
+			pomelo.app.get('dbclient').query(sql, function(err,  rows, fields) {
 				if (err) {
-					logger.error('create bag for bagDao failed! ' + err.stack);
-					//utils.invokeCallback(callback, err, null);
-					callback(true)
+					logger.error('create User for userDao failed! ' + err.stack);
+					utils.invokeCallback(callback, err, null);
 				} else {
-					//var bag = new Bag({id: res.insertId});
-					//utils.invokeCallback(callback, null, bag);
-					callback(false)
+					var user = new User({
+						userId: userId,
+						account: account,
+						name: name,
+						coins: coins,
+						gems:gems,
+						sex:sex,
+						headimg:headimg
+					});
+					utils.invokeCallback(callback, null, user);
 				}
 			});
 		}
@@ -93,6 +101,22 @@ accountDao.createUser = function(account, name,coins,gems,sex,headimg,callback) 
 	
 };
 
+userDao.getUserByUid = function(uid, callback) {
+	var sql = 'select * from t_users where userId = "' + uid + '"';
+	pomelo.app.get('dbclient').query(sql, function(err,  rows, fields) {
+		if (err) {
+			logger.error('get User  failed! ' + err.stack);
+			utils.invokeCallback(callback, err, null);
+		} else {
+			if(!rows || rows.length <= 0) {
+				utils.invokeCallback(callback, null, []);
+				return;
+			} else {
+				utils.invokeCallback(callback, null, rows[0]);
+			}			
+		}
+	});	
+};
 // /**
 //  * Find bag by playerId 
 //  * 

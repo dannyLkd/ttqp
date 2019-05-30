@@ -39,7 +39,7 @@ cc.Class({
         //console.log("appdf----------------",appdf.WIDTH);
         this.scheduleOnce(function(){
             cc.director.loadScene('LoginScene');
-        }, 0.5);
+        }, 0.1);
 
     },
 

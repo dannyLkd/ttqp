@@ -37,9 +37,6 @@ Handler.prototype.queryEntry = function(msg, session, next) {
     });
 };
 
-Handler.prototype.createRole = function(msg, session,next){
-	
-}
 // handler.prototype.guestLogin = function (msg, session, next) {
 // 	var sqlHelper = this.app.get('sqlHelper');//获取全局mysql client
 // 	sqlHelper.guestLogin(function (err, userinfo) {

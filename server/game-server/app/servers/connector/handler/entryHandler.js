@@ -1,5 +1,5 @@
 var Code = require('../../../../../shared/code');
-var accountDao = require('../../../dao/accountDao');
+var userDao = require('../../../dao/userDao');
 var crypto = require('../../../util/crypto');
 module.exports = function(app) {
   return new Handler(app);
@@ -18,19 +18,7 @@ var Handler = function(app) {
  * @return {Void}
  */
 Handler.prototype.entry = function(msg, session, next) {
-
-	var self = this;
-
-
-//	session.on('closed', onUserLeave.bind(null, self.app));
-
-	// //put user into channel
-	// self.app.rpc.chat.chatRemote.add(session, uid, self.app.get('serverId'), rid, true, function(users){
-	// 	next(null, {
-	// 		users:users
-	// 	});
-	// });
-
+	//var self = this;
 	var account = "guest_" + msg.username;
 	var sign = crypto.md5(account + req.ip + Code.ACCOUNT_PRI_KEY);
 	var ret = {
@@ -38,41 +26,23 @@ Handler.prototype.entry = function(msg, session, next) {
 		account:account,
 		sign:sign
 	}
-
-	// var sessionService = self.app.get('sessionService');
-
-	// //duplicate log in
-	// if( !! sessionService.getByUid(uid)) {
-	// 	next(null, {
-	// 		code: Code.FAIL,
-	// 		error: true
-	// 	});
-	// 	return;
-	// }
-	
-	// session.bind(uid);
-	// session.set('uid', uid);
-	// session.push('uid', function(err) {
-	// 	if(err) {
-	// 		console.error('set rid for session service failed! error is : %j', err.stack);
-	// 	}
-	// });
-
-	// send(res,ret);
-
-
-  next(null, {code: 200, msg: 'game server is ok.'});
+  	next(null, {code: 200, msg: 'game server is ok.'});
 };
 
 
 Handler.prototype.createUser= function(msg, session, next) {
+	//var self = this;
 	var coins = 1000;
 	var gems = 21;		
-	var self = this;
-	var account = "guest_" + msg.username;
-	var sign = crypto.md5(account + msg.ip + Code.ACCOUNT_PRI_KEY);
-	accountDao.createUser(account,msg.username,coins,gems,1,"",next);
+	var account = "guest_";
+	//var sign = crypto.md5(account + msg.ip + Code.ACCOUNT_PRI_KEY);
+	userDao.createUser(account,msg.username,coins,gems,1,"",next);
 }
+
+Handler.prototype.authLogin= function(msg, session, next) {
+	userDao.getUserByUid(msg.userId,next);
+}
+
 
 /**
  * Publish route for mqtt connector.

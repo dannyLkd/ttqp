@@ -13,9 +13,10 @@ var createMysqlPool = function(app) {
 				host: mysqlConfig.host,
 				user: mysqlConfig.user,
 				password: mysqlConfig.password,
-				database: mysqlConfig.database
+				database: mysqlConfig.database,
+				port: mysqlConfig.port
 			});
-			//callback(null, client);
+			callback(null, client);
 		},
 		destroy: function(client) {
 			client.end();
@@ -23,14 +24,7 @@ var createMysqlPool = function(app) {
 		max: 10,
 		idleTimeoutMillis : 30000,
 		log : false
-	});
-    // return  _poolModule.createPool({  
-    //     host: mysqlConfig.host,
-    //     user: mysqlConfig.user,
-    //     password: mysqlConfig.password,
-    //     database: mysqlConfig.database,
-    //     port: mysqlConfig.port,
-    // });	
+	});	
 };
 
 exports.createMysqlPool = createMysqlPool;
